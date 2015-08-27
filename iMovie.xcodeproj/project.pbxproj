@@ -14,6 +14,12 @@
 		6097A4081B8EF75500640CD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6097A4071B8EF75500640CD0 /* Images.xcassets */; };
 		6097A40B1B8EF75500640CD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6097A4091B8EF75500640CD0 /* LaunchScreen.xib */; };
 		6097A4171B8EF75500640CD0 /* iMovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6097A4161B8EF75500640CD0 /* iMovieTests.m */; };
+		6097A4221B8EFAE400640CD0 /* JRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6097A4211B8EFAE400640CD0 /* JRNavigationController.m */; };
+		6097A42E1B8F103400640CD0 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6097A42D1B8F103400640CD0 /* NewsViewController.m */; };
+		6097A4321B8F107F00640CD0 /* TheatreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6097A4311B8F107F00640CD0 /* TheatreViewController.m */; };
+		6097A4351B8F109200640CD0 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6097A4341B8F109200640CD0 /* MovieViewController.m */; };
+		6097A4381B8F10AE00640CD0 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6097A4371B8F10AE00640CD0 /* ActivityViewController.m */; };
+		6097A43B1B8F10E000640CD0 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6097A43A1B8F10E000640CD0 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,18 @@
 		6097A4101B8EF75500640CD0 /* iMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6097A4151B8EF75500640CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6097A4161B8EF75500640CD0 /* iMovieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMovieTests.m; sourceTree = "<group>"; };
+		6097A4201B8EFAE400640CD0 /* JRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRNavigationController.h; sourceTree = "<group>"; };
+		6097A4211B8EFAE400640CD0 /* JRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRNavigationController.m; sourceTree = "<group>"; };
+		6097A42C1B8F103400640CD0 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		6097A42D1B8F103400640CD0 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		6097A4301B8F107F00640CD0 /* TheatreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheatreViewController.h; sourceTree = "<group>"; };
+		6097A4311B8F107F00640CD0 /* TheatreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheatreViewController.m; sourceTree = "<group>"; };
+		6097A4331B8F109200640CD0 /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		6097A4341B8F109200640CD0 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		6097A4361B8F10AE00640CD0 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		6097A4371B8F10AE00640CD0 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		6097A4391B8F10E000640CD0 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		6097A43A1B8F10E000640CD0 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,12 @@
 		6097A3F91B8EF75500640CD0 /* iMovie */ = {
 			isa = PBXGroup;
 			children = (
+				6097A4281B8F06BF00640CD0 /* wode */,
+				6097A4271B8F06B900640CD0 /* huodong */,
+				6097A4261B8F06B300640CD0 /* dianying */,
+				6097A4251B8F06AE00640CD0 /* yingyue */,
+				6097A4241B8F069A00640CD0 /* zixun */,
+				6097A4231B8EFC2500640CD0 /* Comm */,
 				6097A3FE1B8EF75500640CD0 /* AppDelegate.h */,
 				6097A3FF1B8EF75500640CD0 /* AppDelegate.m */,
 				6097A4011B8EF75500640CD0 /* ViewController.h */,
@@ -117,6 +141,60 @@
 				6097A4151B8EF75500640CD0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6097A4231B8EFC2500640CD0 /* Comm */ = {
+			isa = PBXGroup;
+			children = (
+				6097A4201B8EFAE400640CD0 /* JRNavigationController.h */,
+				6097A4211B8EFAE400640CD0 /* JRNavigationController.m */,
+			);
+			name = Comm;
+			sourceTree = "<group>";
+		};
+		6097A4241B8F069A00640CD0 /* zixun */ = {
+			isa = PBXGroup;
+			children = (
+				6097A42C1B8F103400640CD0 /* NewsViewController.h */,
+				6097A42D1B8F103400640CD0 /* NewsViewController.m */,
+			);
+			name = zixun;
+			sourceTree = "<group>";
+		};
+		6097A4251B8F06AE00640CD0 /* yingyue */ = {
+			isa = PBXGroup;
+			children = (
+				6097A4301B8F107F00640CD0 /* TheatreViewController.h */,
+				6097A4311B8F107F00640CD0 /* TheatreViewController.m */,
+			);
+			name = yingyue;
+			sourceTree = "<group>";
+		};
+		6097A4261B8F06B300640CD0 /* dianying */ = {
+			isa = PBXGroup;
+			children = (
+				6097A4331B8F109200640CD0 /* MovieViewController.h */,
+				6097A4341B8F109200640CD0 /* MovieViewController.m */,
+			);
+			name = dianying;
+			sourceTree = "<group>";
+		};
+		6097A4271B8F06B900640CD0 /* huodong */ = {
+			isa = PBXGroup;
+			children = (
+				6097A4361B8F10AE00640CD0 /* ActivityViewController.h */,
+				6097A4371B8F10AE00640CD0 /* ActivityViewController.m */,
+			);
+			name = huodong;
+			sourceTree = "<group>";
+		};
+		6097A4281B8F06BF00640CD0 /* wode */ = {
+			isa = PBXGroup;
+			children = (
+				6097A4391B8F10E000640CD0 /* MyViewController.h */,
+				6097A43A1B8F10E000640CD0 /* MyViewController.m */,
+			);
+			name = wode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6097A4321B8F107F00640CD0 /* TheatreViewController.m in Sources */,
 				6097A4031B8EF75500640CD0 /* ViewController.m in Sources */,
 				6097A4001B8EF75500640CD0 /* AppDelegate.m in Sources */,
+				6097A43B1B8F10E000640CD0 /* MyViewController.m in Sources */,
+				6097A4351B8F109200640CD0 /* MovieViewController.m in Sources */,
+				6097A42E1B8F103400640CD0 /* NewsViewController.m in Sources */,
 				6097A3FD1B8EF75500640CD0 /* main.m in Sources */,
+				6097A4221B8EFAE400640CD0 /* JRNavigationController.m in Sources */,
+				6097A4381B8F10AE00640CD0 /* ActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
